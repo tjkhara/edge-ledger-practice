@@ -121,3 +121,27 @@ img {
 .logoNavAndText * {
   z-index: 10;
 }
+
+/* Services */
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 70px 10px;
+}
+
+.service i {
+  background-color: #28a745;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.service h2 {
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.service p {
+}
