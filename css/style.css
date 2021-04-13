@@ -143,5 +143,40 @@ img {
   margin: 20px 0;
 }
 
-.service p {
+/* Split */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #28a745;
+  color: #fff;
+}
+
+.split img {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.split-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+}
+
+.split-text h1 {
+  font-size: 35px;
+}
+
+.split-text a {
+  margin-top: 15px;
 }
