@@ -143,6 +143,10 @@ img {
   margin: 20px 0;
 }
 
+.service {
+  padding-bottom: 50px;
+}
+
 /* Split */
 .row {
   display: flex;
@@ -394,4 +398,52 @@ img {
 
 .footer a:hover {
   color: #28a745;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  /* Header */
+  .logoAndNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav a {
+    padding: 5px 10px;
+    margin: 0 3px;
+  }
+
+  /* Services */
+  .services {
+    flex-direction: column;
+  }
+
+  .business-cases {
+    text-align: center;
+  }
+
+  .gallery-row {
+    flex-direction: column;
+  }
+
+  .blog-post {
+    flex-direction: column-reverse;
+  }
+
+  .team-header {
+    text-align: center;
+  }
+
+  .team-boxes-container {
+    flex-direction: column-reverse;
+  }
+
+  .team-box img {
+    width: 75%;
+  }
+
+  .callback {
+    flex-direction: column;
+  }
 }
