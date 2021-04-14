@@ -317,3 +317,57 @@ img {
 .team-box img {
   border-radius: 50%;
 }
+
+/* Callback */
+
+.callback {
+  display: flex;
+  flex-direction: row;
+}
+
+.callback-image {
+  display: flex;
+  flex: 1;
+}
+
+.callback-form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.callback-form h1 {
+  font-size: 40px;
+}
+
+.cb-form-actual {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.cb-form-actual label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.cb-form-actual .form-control {
+  margin-bottom: 15px;
+}
+
+.cb-form-actual input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: #f4f4f4 1px solid;
+}
+
+.cb-form-actual input:focus {
+  outline-color: #28a745;
+}
+
+.cb-form-actual .btn {
+  padding: 12px 0;
+  margin-top: 20px;
+}
