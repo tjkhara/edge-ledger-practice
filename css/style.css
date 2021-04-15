@@ -447,3 +447,17 @@ img {
     flex-direction: column;
   }
 }
+
+/* Blog page */
+
+.blog-header .logoNavAndText {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  background: url("../images/home/blog.jpg") no-repeat center center/cover;
+  color: #fff;
+  padding: 20px 30px;
+}
+
+.blog-page.blog-post {
+}
