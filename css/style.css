@@ -459,5 +459,24 @@ img {
   padding: 20px 30px;
 }
 
-.blog-page.blog-post {
+/* Single blog post */
+
+.blog-post-single {
+  margin: 10px;
+  padding: 20px;
+}
+
+.blog-post-single h1 {
+  border-bottom: 1px solid #333;
+  width: 100%;
+  margin: 15px 0 15px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+.blog-post-single img {
+  width: 20%;
+  display: block;
+  margin: 10px auto 50px;
+  border-radius: 50%;
 }
