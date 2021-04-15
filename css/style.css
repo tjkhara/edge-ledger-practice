@@ -47,22 +47,38 @@ img {
   background: url("../images/home/showcase.jpg") no-repeat center center/cover;
   color: #fff;
   position: relative;
-  padding: 20px 30px;
 }
 
 /* This is just to place the logo and then the nav */
 .logoAndNav {
   display: flex;
   justify-content: space-between;
+  background-color: #333;
+  opacity: 0.7;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+}
+
+.logo,
+.nav {
+  padding: 10px;
+}
+
+.nav {
+  padding-top: 20px;
 }
 
 .top {
-  background: transparent;
+  /* background: transparent; */
 }
 
 /* This is for the nav */
 .nav ul {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav a {
